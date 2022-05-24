@@ -4,10 +4,10 @@
   "description": "Cada tarea es un objeto con",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "lint": "eslint",
-    "types": "module",
-    "test:watch": "jest --watchAll"
+    "type": "module",
+    "test": "jest --watchAll --coverage",
+    "start": "tsc --watch"
   },
   "keywords": [],
   "author": "",
